@@ -1,0 +1,57 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+#Page{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.content{
+  padding: 15px;
+}
+h1{
+  height: 40px;
+}
+h1 img{
+  height: 100%;
+}
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+ul{
+  padding-top: 30px;
+}
+ul li{
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  border-bottom: 1px solid #999999;
+}
+ul li .icon{
+  font-size: 30px;
+  line-height: 40px;
+}
+ul li span{
+  float: right;
+  color: #999999;
+}
+.btn-box{
+  text-align: center;
+  padding-top: 30px;
+}
+.btn-box button{
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(56, 121, 217);
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}

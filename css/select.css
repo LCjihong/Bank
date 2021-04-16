@@ -1,0 +1,48 @@
+#Page{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.main-box{
+  padding: 25px;
+}
+h1 img{
+  height: 40px;
+}
+.info{
+  text-align: center;
+  padding: 25px 0;
+}
+.info p{
+  line-height: 30px;
+}
+.info p:first-of-type{
+  color: #333333;
+}
+.info p:last-of-type{
+  color: #999999;
+}
+section.two{
+  height: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+section.two span{
+  line-height: 30px;
+}
+section.two .btn-box{
+  width: 200px;
+}
+button{
+  height: 100%;
+  background-color: rgb(56, 121, 217);
+  color: #ffffff;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

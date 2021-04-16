@@ -1,0 +1,62 @@
+#Page {
+  height: 100%;
+  background-color: #56abfe;
+}
+
+hgroup {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+}
+
+hgroup h1 {
+  font: 500 50px/60px '华文琥珀';
+}
+
+hgroup h3 {
+  font: 400 30px/50px '';
+}
+
+.img-box{
+  padding: 0 30px;
+}
+.img-box img{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.nav-box {
+  padding: 0 30px;
+}
+
+.nav-box figure {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.nav-box figure:nth-of-type(2n-1) {
+  float: left;
+}
+
+.nav-box figure:nth-of-type(2n) {
+  float: right;
+}
+
+.nav-box figure i {
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #448de8;
+}
+
+.nav-box figure figcaption {
+  color: #666;
+}
